@@ -1,9 +1,9 @@
 import React from "react"
 import Link from "gatsby-link"
 import * as PropTypes from "prop-types"
-import "../../node_modules/tachyons/css/tachyons.css"
-import 'typeface-open-sans';
+// import "../css/variables.scss"
 import "../css/fonts.css"
+import 'typeface-open-sans';
 
 const propTypes = {
   children: PropTypes.func.isRequired,

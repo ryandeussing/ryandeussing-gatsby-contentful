@@ -7,7 +7,7 @@
       "layout": "index",
       "jsonName": "dev-404-page.json",
       "internalComponentName": "ComponentDev404Page",
-      "updatedAt": 1504127475750,
+      "updatedAt": 1504210619441,
       "context": {},
       "pluginCreator___NODE": "Plugin dev-404-page",
       "pluginCreatorId": "Plugin dev-404-page",
@@ -17,7 +17,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "1496a203b70c4771b978cb2adfc9870f",
+        "contentDigest": "c0dccc01788426806d891492966c8512",
         "owner": "internal-data-bridge"
       }
     },
@@ -209,11 +209,78 @@
         "owner": "internal-data-bridge"
       }
     },
+    "Plugin gatsby-plugin-postcss-sass": {
+      "resolve": "/Users/ryanaponte/repos/gatsby-contentful/node_modules/gatsby-plugin-postcss-sass",
+      "id": "Plugin gatsby-plugin-postcss-sass",
+      "name": "gatsby-plugin-postcss-sass",
+      "version": "1.0.9",
+      "pluginOptions": {
+        "plugins": [],
+        "postCssPlugins": []
+      },
+      "pluginFilepath": "/Users/ryanaponte/repos/gatsby-contentful/node_modules/gatsby-plugin-postcss-sass",
+      "packageJson": {
+        "name": "gatsby-plugin-postcss-sass",
+        "description": "Gatsby plugin to handle scss/sass files with integrated support for also processing with Postcss plugins",
+        "version": "1.0.9",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "postcss",
+          "sass",
+          "scss"
+        ],
+        "author": {
+          "name": "Scotty Eckenthal",
+          "email": "scotty@meetfabric.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "extract-text-webpack-plugin",
+            "version": "^1.0.1"
+          },
+          {
+            "name": "gatsby-1-config-css-modules",
+            "version": "^1.0.4"
+          },
+          {
+            "name": "node-sass",
+            "version": "^4.5.2"
+          },
+          {
+            "name": "sass-loader",
+            "version": "^4.1.1"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "a8bf06e80d2ad6123e20f8817745961f",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
     "Plugin gatsby-source-contentful": {
       "resolve": "/Users/ryanaponte/repos/gatsby-contentful/node_modules/gatsby-source-contentful",
       "id": "Plugin gatsby-source-contentful",
       "name": "gatsby-source-contentful",
-      "version": "1.3.5",
+      "version": "1.3.6",
       "pluginOptions": {
         "plugins": [],
         "spaceId": "63gjib4vyfgd",
@@ -223,13 +290,17 @@
       "packageJson": {
         "name": "gatsby-source-contentful",
         "description": "Gatsby source plugin for building websites using the Contentful CMS as a data source",
-        "version": "1.3.5",
+        "version": "1.3.6",
         "keywords": [
           "gatsby",
           "gatsby-plugin",
           "gatsby-source-plugin"
         ],
-        "author": "Marcus Ericsson <mericsson@gmail.com> (mericsson.com)",
+        "author": {
+          "name": "Marcus Ericsson",
+          "email": "mericsson@gmail.com",
+          "url": "mericsson.com"
+        },
         "license": "MIT",
         "dependencies": [
           {
@@ -238,7 +309,7 @@
           },
           {
             "name": "babel-runtime",
-            "version": "6.26.0"
+            "version": "^6.26.0"
           },
           {
             "name": "base64-img",
@@ -277,7 +348,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "122f5dc8ce9f3fb0d56453e7e98ac673",
+        "contentDigest": "1062e4d1d046782fd1dac793d0c0e708",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -286,7 +357,7 @@
       "resolve": "/Users/ryanaponte/repos/gatsby-contentful/node_modules/gatsby-transformer-remark",
       "id": "Plugin gatsby-transformer-remark",
       "name": "gatsby-transformer-remark",
-      "version": "1.7.4",
+      "version": "1.7.5",
       "pluginOptions": {
         "plugins": []
       },
@@ -294,19 +365,22 @@
       "packageJson": {
         "name": "gatsby-transformer-remark",
         "description": "Gatsby transformer plugin for Markdown using the Remark library and ecosystem",
-        "version": "1.7.4",
+        "version": "1.7.5",
         "keywords": [
           "gatsby",
           "gatsby-plugin",
           "markdown",
           "remark"
         ],
-        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
         "license": "MIT",
         "dependencies": [
           {
             "name": "babel-runtime",
-            "version": "6.26.0"
+            "version": "^6.26.0"
           },
           {
             "name": "bluebird",
@@ -356,7 +430,7 @@
         "devDependencies": [
           {
             "name": "babel-cli",
-            "version": "^6.24.1"
+            "version": "^6.26.0"
           },
           {
             "name": "babel-plugin-transform-object-rest-spread",
@@ -370,7 +444,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "85fe0e959778a12868d099c6dfe39616",
+        "contentDigest": "26b617d35be744bd6977504ac5a0652b",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -379,7 +453,7 @@
       "resolve": "/Users/ryanaponte/repos/gatsby-contentful",
       "id": "Plugin default-site-plugin",
       "name": "default-site-plugin",
-      "version": "879323b6ae62a3ccca8aa7f24e9be48f",
+      "version": "5034584e706dda417bcd489a3be6f871",
       "pluginOptions": {
         "plugins": []
       },
@@ -412,6 +486,10 @@
             "version": "latest"
           },
           {
+            "name": "gatsby-plugin-postcss-sass",
+            "version": "^1.0.9"
+          },
+          {
             "name": "gatsby-plugin-styled-components",
             "version": "^1.0.4"
           },
@@ -432,8 +510,8 @@
             "version": "^1.0.0"
           },
           {
-            "name": "tachyons",
-            "version": "^4.8.1"
+            "name": "styled-components-tachyons",
+            "version": "0.0.5"
           },
           {
             "name": "typeface-open-sans",
@@ -448,7 +526,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "b6c7929ea271023b71aa6c9dc60fcbd1",
+        "contentDigest": "81b59d006e313355e5685e1776c5edf0",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -461,12 +539,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2017-08-30T21:00:42.186Z",
+      "buildTime": "2017-08-31T20:16:50.512Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "20d97ce73115fd1afe7fa14379389890",
+        "contentDigest": "b79b4e992ea30d073a8d7bd9f997f511",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1174,7 +1252,7 @@
       "layout": "index",
       "jsonName": "image-api.json",
       "internalComponentName": "ComponentImageApi",
-      "updatedAt": 1504126848483,
+      "updatedAt": 1504210619466,
       "context": {},
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
@@ -1184,7 +1262,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "380da5457eab43cb126f3fa079402fe1",
+        "contentDigest": "5d8c520310dc0c10a9054971a6c120e3",
         "owner": "internal-data-bridge"
       }
     },
@@ -1195,7 +1273,7 @@
       "layout": "index",
       "jsonName": "index.json",
       "internalComponentName": "ComponentIndex",
-      "updatedAt": 1504126848484,
+      "updatedAt": 1504210619473,
       "context": {},
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
@@ -1205,7 +1283,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "a235144ce2db2fbf88a9772787381341",
+        "contentDigest": "281933f988ec25d7617f12dec2656c35",
         "owner": "internal-data-bridge"
       }
     }
@@ -1218,7 +1296,7 @@
         }
       }
     },
-    "PLUGINS_HASH": "ae1e559778b0f6347ce563c1bf893f6f"
+    "PLUGINS_HASH": "836fe908a69fc6cd647a28d2199c1eff"
   },
   "componentDataDependencies": {
     "nodes": {

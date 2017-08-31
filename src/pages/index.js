@@ -1,33 +1,38 @@
-import React from "react"
-import styled from "styled-components"
-import Link from "gatsby-link"
-import Hero from "../components/Hero"
-import HeroText from "../components/HeroText"
-import Intro from "../components/Intro"
-import IntroText from "../components/IntroText"
+import React from 'react'
+import "../css/variables.scss"
+import styled from 'styled-components'
+import tachyons from 'styled-components-tachyons'
+import Link from 'gatsby-link'
 
-import Project from "../components/Project"
-import * as PropTypes from "prop-types"
+// import Hero from '../components/Hero'
+// import HeroText from '../components/HeroText'
+// import Intro from '../components/Intro'
+// import IntroText from '../components/IntroText'
+
+import Project from '../components/Project'
+import * as PropTypes from 'prop-types'
 
 const propTypes = {
   data: PropTypes.object.isRequired,
 }
 
-const Portfolio = styled.section.attrs({
-  className: 'tc pv5',
-})``
+const Hero = styled.section`
+  ${tachyons}
+`
 
-const PortfolioItemWrapper = styled.section.attrs({
-  className: 'center mw7 pv4',
-})``
+const HeroText = styled.h1``
 
-const PortfolioItemHeader = styled.p.attrs({
-  className: 'tl b',
-})``
+const Intro = styled.section``
 
-const PortfolioItemText = styled.p.attrs({
-  className: 'tl center lh-copy mv0',
-})``
+const IntroText = styled.h2``
+
+const Portfolio = styled.section``
+
+const PortfolioItemWrapper = styled.section``
+
+const PortfolioItemHeader = styled.p``
+
+const PortfolioItemText = styled.p``
 
 const Projectlist = ({ className, node }) =>
   <div className={className} >
@@ -36,16 +41,14 @@ const Projectlist = ({ className, node }) =>
      })}
  </div>
 
-const StyledProjectlist = styled(Projectlist).attrs({
- className: 'center mw7',
-})``
+const StyledProjectlist = styled(Projectlist)``
 
 class IndexPage extends React.Component {
   render() {
     const Projects = this.props.data.us.edges
     return (
       <div>
-        <Hero>
+        <Hero tc pv6>
           <HeroText>Hi, I&rsquo;m Ryan</HeroText>
         </Hero>
         <Intro>
@@ -53,10 +56,12 @@ class IndexPage extends React.Component {
             I help people and products succeed on the web using strategy, design, and code.
           </IntroText>
         </Intro>
-        <PortfolioItemWrapper>
-          <PortfolioItemHeader>Consulting</PortfolioItemHeader>
-          <PortfolioItemText>I work with individuals, agencies, brands, and friends. If you&rsquo;d like to discuss a project, or just talk shop, please get in touch</PortfolioItemText>
-        </PortfolioItemWrapper>
+        <Portfolio>
+          <PortfolioItemWrapper>
+            <PortfolioItemHeader>Consulting</PortfolioItemHeader>
+            <PortfolioItemText>I work with individuals, agencies, brands, and friends. If you&rsquo;d like to discuss a project, or just talk shop, please get in touch</PortfolioItemText>
+          </PortfolioItemWrapper>
+        </Portfolio>
 
         {Projects.map(({ node }, i) => <StyledProjectlist node={node} key={i} />)}
 

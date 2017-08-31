@@ -4,6 +4,12 @@ module.exports = {
   },
   plugins: [
     {
+      resolve: `gatsby-plugin-postcss-sass`,
+      options: {
+        postCssPlugins: [],
+      },
+    },
+    {
       resolve: `gatsby-source-contentful`,
       options: {
         spaceId: `63gjib4vyfgd`,

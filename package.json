@@ -9,13 +9,13 @@
     "gatsby-link": "latest",
     "gatsby-plugin-google-analytics": "latest",
     "gatsby-plugin-offline": "latest",
+    "gatsby-plugin-postcss-sass": "^1.0.9",
     "gatsby-plugin-styled-components": "^1.0.4",
     "gatsby-source-contentful": "latest",
     "gatsby-transformer-remark": "latest",
     "lodash": "^4.16.4",
     "slash": "^1.0.0",
     "styled-components-tachyons": "0.0.5",
-    "tachyons": "^4.8.1",
     "typeface-open-sans": "ryandeussing/typeface-open-sans"
   },
   "keywords": [
