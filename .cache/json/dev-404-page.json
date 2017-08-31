@@ -1,0 +1,20 @@
+{
+    "data": {
+        "allSitePage": {
+            "totalCount": 2,
+            "edges": [
+                {
+                    "node": {
+                        "path": "/image-api/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/"
+                    }
+                }
+            ]
+        }
+    },
+    "pathContext": {}
+}

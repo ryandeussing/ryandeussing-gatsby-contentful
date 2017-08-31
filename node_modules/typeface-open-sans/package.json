@@ -1,0 +1,44 @@
+{
+  "_from": "typeface-open-sans",
+  "_id": "typeface-open-sans@0.0.35",
+  "_inBundle": false,
+  "_integrity": "sha512-lNrL3aaatdSkSb8rH1R9GXS27xyD5H4h9NctEm9B5Uk/pKwCzDrUcZhbhYi5Yih5FcMa8ZTtdY5K1ziMxo6EEg==",
+  "_location": "/typeface-open-sans",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "typeface-open-sans",
+    "name": "typeface-open-sans",
+    "escapedName": "typeface-open-sans",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/typeface-open-sans/-/typeface-open-sans-0.0.35.tgz",
+  "_shasum": "170dc36bbbd63829c9ea64b991c2b0fd65017708",
+  "_spec": "typeface-open-sans",
+  "_where": "/Users/ryanaponte/repos/gatsby-contentful",
+  "author": {
+    "name": "Kyle Mathews",
+    "email": "mathews.kyle@gmail.com"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Open Sans typeface",
+  "keywords": [
+    "typeface",
+    "font",
+    "font family",
+    "google fonts",
+    "open-sans"
+  ],
+  "license": "MIT",
+  "main": "index.css",
+  "name": "typeface-open-sans",
+  "version": "0.0.35"
+}
