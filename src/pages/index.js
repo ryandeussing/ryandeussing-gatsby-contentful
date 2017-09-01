@@ -44,25 +44,25 @@ class IndexPage extends React.Component {
     return (
       <div>
         <Section ph4 pv6 tc>
-          <HeroText blue mv0 f_subheadline_ns f2>Hi, I'm Ryan</HeroText>
+          <HeroText blue mv0 f_subheadline_m f2>Hi, I'm Ryan</HeroText>
         </Section>
         <Section bg_near_white ph4 pv5 tc>
-          <IntroText f2_ns lh_title near-black>I help people and products succeed on the web using strategy, design, and code.</IntroText>
+          <IntroText f2_m lh_title near-black>I help people and products succeed on the web using strategy, design, and code.</IntroText>
         </Section>
-        <Section ph4 pt5 pb3>
-          <H3 f3_ns f4 mt4>Consulting</H3>
-          <P f3_ns f4 lh_copy mb4>I work with individuals, agencies, brands, and friends. If you&rsquo;d like to discuss a project, or just talk shop, please get in touch.</P>
+        <Section ph4 ph5_m pt5 pb3>
+          <H3 f4 f3_m mt4>Consulting</H3>
+          <P f4 f3_m lh_copy mb4>I work with individuals, agencies, brands, and friends. If you&rsquo;d like to discuss a project, or just talk shop, please get in touch.</P>
         </Section>
         <Section ph5>
-        {Projects.map(({ node }, i) => <StyledProjectList node={node} key={i} />)}
+        {Projects.map(({ node }, i) => <StyledProjectList pb5 node={node} key={i} />)}
         </Section>
-        <Section bt ph4 pv5>
-          <H3 f3_ns f4 mt4>Entrepreneur in Residence</H3>
-          <P f3_ns f4 lh_copy>In 2016, I was a Kaufmann Foundation EIR at NYDesigns, helping young companies identify opportunities and develop strategies for traction and growth.</P>
+        <Section bt ph4 ph5_m pv5>
+          <H3 f4 f3_m mt4>Entrepreneur in Residence</H3>
+          <P f3_m f4 lh_copy>In 2016, I was a Kaufmann Foundation EIR at NYDesigns, helping young companies identify opportunities and develop strategies for traction and growth.</P>
         </Section>
         <Section bg_near_white pt5 pb6 tc>
-          <H3 f2_ns f3 mt4>Let&rsquo;s connect</H3>
-          <A dib f4_ns link near_black ph1 href="mailto:ryan@ryandeussing.com">Email</A> / <A dib f4_ns link near_black ph1 href="https://www.twitter.com/ryandeussing">Twitter</A> / <A dib f4_ns link near_black ph1 href="https://www.linkedin.com/ryandeussing">LinkedIn</A>
+          <H3 f3 f2_m mt4>Let&rsquo;s connect</H3>
+          <A dib f4_m link near_black ph1 href="mailto:ryan@ryandeussing.com">Email</A> / <A dib f4_m link near_black ph1 href="https://www.twitter.com/ryandeussing">Twitter</A> / <A dib f4_m link near_black ph1 href="https://www.linkedin.com/ryandeussing">LinkedIn</A>
         </Section>
       </div>
 
