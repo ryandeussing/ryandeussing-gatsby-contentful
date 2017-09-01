@@ -20,10 +20,10 @@ const IntroText = styled.h2`${tachyons}`
 const H3 = styled.h3`${tachyons}`
 const P = styled.p`${tachyons}`
 
-const ProjectList = ({ node }) =>
+const ProjectList = ({ className, node }) =>
   <div>
      {node.projects.map(function(project, index){
-       return <StyledProject project={project} key={index} />
+       return <StyledProject ba project={project} key={index} />
      })}
  </div>
 
@@ -44,9 +44,9 @@ class IndexPage extends React.Component {
           <H3 f4 mt4>Consulting</H3>
           <P f5 lh_copy mb4>I work with individuals, agencies, brands, and friends. If you&rsquo;d like to discuss a project, or just talk shop, please get in touch.</P>
         </Section>
-
+        <Section ph5>
         {Projects.map(({ node }, i) => <StyledProjectList node={node} key={i} />)}
-
+        </Section>
         <Section bt ph4 pv5>
           <H3 f4 mt4>Entrepreneur in Residence</H3>
           <P f5 lh_copy>In 2016, I was a Kaufmann Foundation EIR at NYDesigns, helping young companies identify opportunities and develop strategies for traction and growth.</P>
