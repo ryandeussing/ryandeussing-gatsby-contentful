@@ -14,6 +14,7 @@
     "gatsby-source-contentful": "latest",
     "gatsby-transformer-remark": "latest",
     "lodash": "^4.16.4",
+    "normalize.css": "^7.0.0",
     "slash": "^1.0.0",
     "styled-components-tachyons": "0.0.5",
     "typeface-open-sans": "ryandeussing/typeface-open-sans"

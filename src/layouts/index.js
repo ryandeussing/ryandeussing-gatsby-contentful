@@ -1,9 +1,9 @@
-import React from "react"
-import Link from "gatsby-link"
-import * as PropTypes from "prop-types"
-// import "../css/variables.scss"
-import "../css/fonts.css"
-import 'typeface-open-sans';
+import React from 'react'
+import Link from 'gatsby-link'
+import * as PropTypes from 'prop-types'
+import '../css/fonts.css'
+import 'typeface-open-sans'
+import 'normalize.css'
 
 const propTypes = {
   children: PropTypes.func.isRequired,

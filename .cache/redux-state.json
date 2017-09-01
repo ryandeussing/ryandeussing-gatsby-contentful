@@ -7,7 +7,7 @@
       "layout": "index",
       "jsonName": "dev-404-page.json",
       "internalComponentName": "ComponentDev404Page",
-      "updatedAt": 1504210619441,
+      "updatedAt": 1504218746651,
       "context": {},
       "pluginCreator___NODE": "Plugin dev-404-page",
       "pluginCreatorId": "Plugin dev-404-page",
@@ -17,7 +17,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "c0dccc01788426806d891492966c8512",
+        "contentDigest": "3c0797ebeabf18bc6bb2b54858c4de22",
         "owner": "internal-data-bridge"
       }
     },
@@ -506,6 +506,10 @@
             "version": "^4.16.4"
           },
           {
+            "name": "normalize.css",
+            "version": "^7.0.0"
+          },
+          {
             "name": "slash",
             "version": "^1.0.0"
           },
@@ -539,12 +543,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2017-08-31T20:16:50.512Z",
+      "buildTime": "2017-08-31T22:32:20.665Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "b79b4e992ea30d073a8d7bd9f997f511",
+        "contentDigest": "f6a359bfa952b23290838f0fd6bf293a",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1252,7 +1256,7 @@
       "layout": "index",
       "jsonName": "image-api.json",
       "internalComponentName": "ComponentImageApi",
-      "updatedAt": 1504210619466,
+      "updatedAt": 1504218746662,
       "context": {},
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
@@ -1262,7 +1266,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "5d8c520310dc0c10a9054971a6c120e3",
+        "contentDigest": "076d0ce1693502ab566d2e59282bfb30",
         "owner": "internal-data-bridge"
       }
     },
@@ -1273,7 +1277,7 @@
       "layout": "index",
       "jsonName": "index.json",
       "internalComponentName": "ComponentIndex",
-      "updatedAt": 1504210619473,
+      "updatedAt": 1504218746663,
       "context": {},
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
@@ -1283,7 +1287,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "281933f988ec25d7617f12dec2656c35",
+        "contentDigest": "20a70ee18d327c0fa2f5bd4f3f970dd6",
         "owner": "internal-data-bridge"
       }
     }
@@ -1296,7 +1300,7 @@
         }
       }
     },
-    "PLUGINS_HASH": "836fe908a69fc6cd647a28d2199c1eff"
+    "PLUGINS_HASH": "1227350df4d27315c48c3f4f36cff3f6"
   },
   "componentDataDependencies": {
     "nodes": {

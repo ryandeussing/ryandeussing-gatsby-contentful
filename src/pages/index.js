@@ -3,78 +3,60 @@ import "../css/variables.scss"
 import styled from 'styled-components'
 import tachyons from 'styled-components-tachyons'
 import Link from 'gatsby-link'
-
-// import Hero from '../components/Hero'
-// import HeroText from '../components/HeroText'
-// import Intro from '../components/Intro'
-// import IntroText from '../components/IntroText'
-
-import Project from '../components/Project'
 import * as PropTypes from 'prop-types'
+
+import StyledProject from '../components/Project'
 
 const propTypes = {
   data: PropTypes.object.isRequired,
 }
 
-const Hero = styled.section`
+const Section = styled.section`
   ${tachyons}
-`
+  border-color: var(--light-gray)
+  `
+const HeroText = styled.h1`${tachyons}`
+const IntroText = styled.h2`${tachyons}`
+const H3 = styled.h3`${tachyons}`
+const P = styled.p`${tachyons}`
 
-const HeroText = styled.h1``
-
-const Intro = styled.section``
-
-const IntroText = styled.h2``
-
-const Portfolio = styled.section``
-
-const PortfolioItemWrapper = styled.section``
-
-const PortfolioItemHeader = styled.p``
-
-const PortfolioItemText = styled.p``
-
-const Projectlist = ({ className, node }) =>
-  <div className={className} >
+const ProjectList = ({ node }) =>
+  <div>
      {node.projects.map(function(project, index){
-       return <Project project={project} key={index} />
+       return <StyledProject project={project} key={index} />
      })}
  </div>
 
-const StyledProjectlist = styled(Projectlist)``
+const StyledProjectList = styled(ProjectList)`${tachyons}`
 
 class IndexPage extends React.Component {
   render() {
     const Projects = this.props.data.us.edges
     return (
       <div>
-        <Hero tc pv6>
-          <HeroText>Hi, I&rsquo;m Ryan</HeroText>
-        </Hero>
-        <Intro>
-          <IntroText>
-            I help people and products succeed on the web using strategy, design, and code.
-          </IntroText>
-        </Intro>
-        <Portfolio>
-          <PortfolioItemWrapper>
-            <PortfolioItemHeader>Consulting</PortfolioItemHeader>
-            <PortfolioItemText>I work with individuals, agencies, brands, and friends. If you&rsquo;d like to discuss a project, or just talk shop, please get in touch</PortfolioItemText>
-          </PortfolioItemWrapper>
-        </Portfolio>
+        <Section ph4 pv6 tc>
+          <HeroText blue mv0 f2>Hi, I'm Ryan</HeroText>
+        </Section>
+        <Section bg_near_white ph4 pv5 tc>
+          <IntroText lh_title near-black>I help people and products succeed on the web using strategy, design, and code.</IntroText>
+        </Section>
+        <Section ph4 pv5>
+          <H3 f4 mt4>Consulting</H3>
+          <P f5 lh_copy mb4>I work with individuals, agencies, brands, and friends. If you&rsquo;d like to discuss a project, or just talk shop, please get in touch.</P>
+        </Section>
 
-        {Projects.map(({ node }, i) => <StyledProjectlist node={node} key={i} />)}
+        {Projects.map(({ node }, i) => <StyledProjectList node={node} key={i} />)}
 
-        <PortfolioItemWrapper>
-          <PortfolioItemHeader>Entrepreneur in Residence</PortfolioItemHeader>
-          <PortfolioItemText>In 2016 I was a Kaufmann Foundation EIR at NYDesigns, helping young companies identify opportunities and develop strategies for traction and growth.</PortfolioItemText>
-        </PortfolioItemWrapper>
+        <Section bt ph4 pv5>
+          <H3 f4 mt4>Entrepreneur in Residence</H3>
+          <P f5 lh_copy>In 2016, I was a Kaufmann Foundation EIR at NYDesigns, helping young companies identify opportunities and develop strategies for traction and growth.</P>
+        </Section>
       </div>
-    )
+
+      )
   }
 }
 
-IndexPage.propTypes = propTypes
 
 export default IndexPage
 

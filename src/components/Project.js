@@ -1,32 +1,50 @@
 import React from "react"
+import "../css/variables.scss"
+import styled from 'styled-components'
+import tachyons from 'styled-components-tachyons'
 
-const Project = ({ project, index }) =>
-  <div>
+const A = styled.a`
+  ${tachyons}
+  > img:hover {
+     box-shadow: 0 10px 50px 0 rgba(0,0,0,0.3);
+   }
+`
+const IMG = styled.img`
+  ${tachyons}
+  transition: all 0.2s ease;
+  box-shadow: 0 10px 30px 0 rgba(0,0,0,0.25);
+`
+const Project = styled.div`${tachyons}`
+
+const StyledProject = ({ project, index }) =>
+  <Project pv3>
      { // ternary to add links where url exists
        (project.url)
        ? <div>
-         <a target="_blank" href={project.url}>
+         <A db target="_blank" href={project.url}>
          {project.image.responsiveResolution.src &&
-           <img
-             style={{ margin: 0 }}
+           <IMG
+             style={{ 'width': '100%' }}
              width={project.image.responsiveResolution.width}
-             height={project.image.responsiveResolution.height}
+             height={'auto'}
+             // height={project.image.responsiveResolution.height}
              src={project.image.responsiveResolution.src}
              srcSet={project.image.responsiveResolution.srcSet}
            />}
-         </a>
+         </A>
          </div>
        : <div>
          {project.image.responsiveResolution.src &&
-           <img
-             style={{ margin: 0 }}
+           <IMG
+             style={{ 'width': '100%' }}
              width={project.image.responsiveResolution.width}
-             height={project.image.responsiveResolution.height}
+             height={'auto'}
+             // height={project.image.responsiveResolution.height}
              src={project.image.responsiveResolution.src}
              srcSet={project.image.responsiveResolution.srcSet}
            />}
        </div>
      }
-  </div>
+  </Project>
 
-  export default Project
+  export default StyledProject
