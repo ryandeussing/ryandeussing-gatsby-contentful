@@ -17,7 +17,7 @@ const IMG = styled.img`
 const Project = styled.div`${tachyons}`
 
 const StyledProject = ({ project, index }) =>
-  <Project pv3>
+  <Project pv4>
      { // ternary to add links where url exists
        (project.url)
        ? <div>
