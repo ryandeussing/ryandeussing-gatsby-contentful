@@ -1,5 +1,6 @@
 import React from "react"
 import * as PropTypes from "prop-types"
+import favicon from "./assets/favicon.ico"
 
 let stylesStr
 if (process.env.NODE_ENV === `production`) {
@@ -38,14 +39,15 @@ class Html extends React.Component {
           <meta charSet="utf-8" />
           <meta
             name="description"
-            content="Gatsby example site using Contentful"
+            content="Hi, I'm Ryan. I use design, code, and strategy to help people and products succeed on the web."
           />
           <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
           <meta
             name="viewport"
             content="width=device-width, initial-scale=1.0"
           />
-          <title>Gatsby Contentful</title>
+          <title>👋 Ryan Deussing</title>
+          <link rel="icon" href={favicon} type="image/x-icon" />
           {css}
         </head>
         <body>
