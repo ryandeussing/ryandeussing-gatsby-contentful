@@ -83,27 +83,7 @@ class IndexPage extends React.Component {
     const Projects = this.props.data.us.edges
     return (
       <div>
-        <Section ph4 pv6 tc>
-          <HeroText blue mv0 f_headline_m f1>Hi, I'm Ryan</HeroText>
-        </Section>
-
-        <Section center mw8>
-          <Section ph4 ph5_m ph6_l pt4 pt5_m pb3>
-            <H3 f4 f3_m f3_l mt4 near_black>Consulting</H3>
-            <P f4 f3_m f3_l lh_copy mb4 near_black>I work with individuals, agencies, brands, and friends. If you&rsquo;d like to discuss a project, or just talk shop, please <GreenA b green link href="mailto:ryan@ryandeussing.com">get in touch</GreenA>.</P>
-          </Section>
-        </Section>
-
-        <Section center mw8>
-          <Section bt ph4 ph5_m ph6_l pv5>
-            <H3 f4 f3_m f3_l mt3 mt4_m near_black>Entrepreneur in Residence</H3>
-            <P f4 f3_m f3_l lh_copy near_black>In 2016, I was a Kaufmann Foundation EIR at <OrangeA b link orange href="http://nydesigns.org" target="_blank">NYDesigns</OrangeA>, helping young companies identify opportunities and develop strategies for traction and growth.</P>
-          </Section>
-        </Section>
-        <Section bg_near_white pt4 pt5_m pt5_l pb5 pb6_m pb6_l tc>
-          <H3 f3 f2_m f2_l mb3 mt4 near_black>Let&rsquo;s connect</H3>
-          <A dib f4_m f4_l link near_black ph1 href="mailto:ryan@ryandeussing.com" target="_blank">Email</A> / <A dib f4_m f4_l link near_black ph1 href="https://www.twitter.com/ryandeussing" target="_blank">Twitter</A> / <A dib f4_m f4_l link near_black ph1 href="https://www.linkedin.com/ryandeussing" target="_blank">LinkedIn</A>
-        </Section>
+        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur.
       </div>
 
       )
