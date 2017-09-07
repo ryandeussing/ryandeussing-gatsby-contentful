@@ -99,7 +99,7 @@ class IndexPage extends React.Component {
           </Section>
         </Section>
         <Section>
-        {Projects.map(({ node }, i) => <StyledProjectList center mw7 pb5 node={node} key={i} />)}
+
         </Section>
         <Section center mw8>
           <Section bt ph4 ph5_m ph6_l pv5>
