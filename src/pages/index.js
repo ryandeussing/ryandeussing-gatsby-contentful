@@ -93,7 +93,7 @@ class IndexPage extends React.Component {
           /> on the web using strategy, design, and code.</IntroText>
         </Section>
         <Section center mw8>
-          <Section ph4 ph5_m ph6_l pt4 pt5_m pb3>
+          <Section ph4 ph5_m ph6_l pt4 pt5_m pt5_l pb3>
             <H3 f4 f3_m f3_l mt4 near_black>Consulting</H3>
             <P f4 f3_m f3_l lh_copy mb4 near_black>I work with individuals, agencies, brands, and friends. If you&rsquo;d like to discuss a project, or just talk shop, please <GreenA b green link href="mailto:ryan@ryandeussing.com">get in touch</GreenA>.</P>
           </Section>
