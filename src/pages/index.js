@@ -53,6 +53,15 @@ const OrangeA = styled.a`
     transition: all .3s ease;
   }
 `
+const BlueA = styled.a`
+  ${tachyons}
+  border-bottom: 3px solid transparent;
+  transition: all .3s ease;
+  &:hover {
+    border-bottom: 3px solid var(--blue);
+    transition: all .3s ease;
+  }
+`
 
 
 const ProjectList = ({ className, node }) =>
@@ -95,7 +104,9 @@ class IndexPage extends React.Component {
         <Section center mw8>
           <Section ph4 ph5_m ph6_l pt4 pt5_m pt5_l pb3>
             <H3 f4 f3_m f3_l mt4 near_black>Consulting</H3>
-            <P f4 f3_m f3_l lh_copy mb4 near_black>I work with individuals, agencies, brands, and friends. If you&rsquo;d like to discuss a project, or just talk shop, please <GreenA b green link href="mailto:ryan@ryandeussing.com">get in touch</GreenA>.</P>
+            <P f4 f3_m f3_l lh_copy mb4 near_black>I&rsquo;m the man behind the curtain at Good Machine, a technical partner for design and branding agencies including PS212, The O Group, Sonnet Media, and Mucca.</P>
+            <P f4 f3_m f3_l lh_copy mb4 near_black>I love collaborating with agency and client teams to guide project strategy, manage implementation, and provide ongoing refinement and support.</P>
+            <P f4 f3_m f3_l lh_copy mb4 near_black>If you&rsquo;d like to talk shop, please <GreenA b green link href="mailto:ryan@ryandeussing.com">get in touch</GreenA> anytime.</P>
           </Section>
         </Section>
         <Section>
@@ -104,7 +115,8 @@ class IndexPage extends React.Component {
         <Section center mw8>
           <Section bt ph4 ph5_m ph6_l pv5>
             <H3 f4 f3_m f3_l mt3 mt4_m near_black>Entrepreneur in Residence</H3>
-            <P f4 f3_m f3_l lh_copy near_black>In 2016, I was a Kaufmann Foundation EIR at <OrangeA b link orange href="http://nydesigns.org" target="_blank">NYDesigns</OrangeA>, helping young companies identify opportunities and develop strategies for traction and growth.</P>
+            <P f4 f3_m f3_l lh_copy near_black>I was recently a Kaufmann Foundation EIR at <OrangeA b link orange href="http://nydesigns.org" target="_blank">NYDesigns</OrangeA>, helping early-stage companies with go-to-market strategies and growth opportunities. Key engagements included <BlueA b link blue href="http://www.antoniasaintny.com" target="_blank">Antonia Saint NY</BlueA> ($2MM+ crowdfunding), <BlueA b link blue href="https://www.mother.ly" target="_blank">Motherly</BlueA> (Matter.vc alum), and fellows of NYC's <BlueA b link blue href="http://www.futureworks.nyc/" target="_blank">Next Top Makers</BlueA> program.
+            </P>
           </Section>
         </Section>
         <Section bg_near_white pt4 pt5_m pt5_l pb5 pb6_m pb6_l tc>
