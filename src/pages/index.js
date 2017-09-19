@@ -62,6 +62,33 @@ const BlueA = styled.a`
     transition: all .3s ease;
   }
 `
+const GoldA = styled.a`
+  ${tachyons}
+  border-bottom: 3px solid transparent;
+  transition: all .3s ease;
+  &:hover {
+    border-bottom: 3px solid var(--gold);
+    transition: all .3s ease;
+  }
+`
+const PinkA = styled.a`
+  ${tachyons}
+  border-bottom: 3px solid transparent;
+  transition: all .3s ease;
+  &:hover {
+    border-bottom: 3px solid var(--dark-pink);
+    transition: all .3s ease;
+  }
+`
+const PurpleA = styled.a`
+  ${tachyons}
+  border-bottom: 3px solid transparent;
+  transition: all .3s ease;
+  &:hover {
+    border-bottom: 3px solid var(--purple);
+    transition: all .3s ease;
+  }
+`
 
 
 const ProjectList = ({ className, node }) =>
@@ -115,7 +142,7 @@ class IndexPage extends React.Component {
         <Section center mw8>
           <Section bt ph4 ph5_m ph6_l pv5>
             <H3 f4 f3_m f3_l mt3 mt4_m near_black>Entrepreneur in Residence</H3>
-            <P f4 f3_m f3_l lh_copy near_black>I was recently a Kaufmann Foundation EIR at <OrangeA b link orange href="http://nydesigns.org" target="_blank">NYDesigns</OrangeA>, helping early-stage companies with go-to-market strategies and growth opportunities. Key engagements included <BlueA b link blue href="http://www.antoniasaintny.com" target="_blank">Antonia Saint NY</BlueA> ($2MM+ crowdfunding), <BlueA b link blue href="https://www.mother.ly" target="_blank">Motherly</BlueA> (Matter.vc alum), and fellows of NYC's <BlueA b link blue href="http://www.futureworks.nyc/" target="_blank">Next Top Makers</BlueA> program.
+            <P f4 f3_m f3_l lh_copy near_black>I was recently a Kaufmann Foundation EIR at <OrangeA b link orange href="http://nydesigns.org" target="_blank">NYDesigns</OrangeA>, helping early-stage companies with go-to-market strategies and growth opportunities. Key engagements included <PurpleA b link purple href="http://www.antoniasaintny.com" target="_blank">Antonia Saint NY</PurpleA> ($2MM+ crowdfunding), <PinkA b link dark_pink href="https://www.mother.ly" target="_blank">Motherly</PinkA> (Matter.vc alum), and fellows of NYC's <GoldA b link gold href="http://www.futureworks.nyc/" target="_blank">Next Top Makers</GoldA> program.
             </P>
           </Section>
         </Section>
