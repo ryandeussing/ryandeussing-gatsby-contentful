@@ -131,7 +131,7 @@ class IndexPage extends React.Component {
         <Section center mw8>
           <Section ph4 ph5_m ph6_l pt4 pt5_m pt5_l pb3>
             <H3 f4 f3_m f3_l mt4 near_black>Consulting</H3>
-            <P f4 f3_m f3_l lh_copy mb4 near_black>I&rsquo;m the man behind the curtain at Good Machine, a technical partner for design and branding agencies including PS212, The O Group, Sonnet Media, and Mucca.</P>
+            <P f4 f3_m f3_l lh_copy mb4 near_black>I&rsquo;m the man behind the curtain at <b>Good Machine</b>, a technical partner for design and branding agencies including PS212, The O Group, Sonnet Media, and Mucca.</P>
             <P f4 f3_m f3_l lh_copy mb4 near_black>I love collaborating with agency and client teams to guide project strategy, manage implementation, and provide ongoing refinement and support.</P>
             <P f4 f3_m f3_l lh_copy mb4 near_black>If you&rsquo;d like to talk shop, please <GreenA b green link href="mailto:ryan@ryandeussing.com">get in touch</GreenA> anytime.</P>
           </Section>

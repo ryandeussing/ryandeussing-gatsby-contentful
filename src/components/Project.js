@@ -6,7 +6,7 @@ import tachyons from 'styled-components-tachyons'
 const A = styled.a`
   ${tachyons}
   > img:hover {
-     box-shadow: 0 10px 50px 0 rgba(0,0,0,0.3);
+     box-shadow: 0 10px 50px 0 rgba(0,0,0,0.4);
    }
 `
 const IMG = styled.img`
