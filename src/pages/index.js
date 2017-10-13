@@ -148,7 +148,7 @@ class IndexPage extends React.Component {
         </Section>
         <Section bg_near_white pt4 pt5_m pt5_l pb5 pb6_m pb6_l tc>
           <H3 f3 f2_m f2_l mb3 mt4 near_black>Let&rsquo;s connect</H3>
-          <A dib f4_m f4_l link near_black ph1 href="mailto:ryan@ryandeussing.com" target="_blank">Email</A> / <A dib f4_m f4_l link near_black ph1 href="https://www.twitter.com/ryandeussing" target="_blank">Twitter</A> / <A dib f4_m f4_l link near_black ph1 href="https://www.linkedin.com/ryandeussing" target="_blank">LinkedIn</A>
+          <A dib f4_m f4_l link near_black ph1 href="mailto:ryan@ryandeussing.com" target="_blank">Email</A> / <A dib f4_m f4_l link near_black ph1 href="https://www.twitter.com/ryandeussing" target="_blank">Twitter</A> / <A dib f4_m f4_l link near_black ph1 href="https://www.linkedin.com/in/ryandeussing" target="_blank">LinkedIn</A>
         </Section>
       </div>
 
