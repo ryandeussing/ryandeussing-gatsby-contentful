@@ -126,7 +126,7 @@ class IndexPage extends React.Component {
           <IntroText center f2_ns lh_title mw8 near_black>I help people and products <ConfettiButton
             isLoading={ this.state.isLoading }
             setLoading={ this.setLoading }
-          /> on the web.</IntroText>
+          /> on the web using strategy, design, and code.</IntroText>
         </Section>
         <Section center mw8>
           <Section ph4 ph5_m ph6_l pt4 pt5_m pt5_l pb3>
