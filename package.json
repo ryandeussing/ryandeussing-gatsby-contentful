@@ -14,7 +14,7 @@
     "gatsby-plugin-styled-components": "^1.0.4",
     "gatsby-source-contentful": "latest",
     "gatsby-transformer-remark": "latest",
-    "lodash": "^4.16.4",
+    "lodash": "^4.17.19",
     "normalize.css": "^7.0.0",
     "react-dom-confetti": "0.0.8",
     "slash": "^1.0.0",
